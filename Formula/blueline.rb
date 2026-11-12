@@ -3,28 +3,28 @@
 class Blueline < Formula
   desc "Preview markdown, mermaid included, in a browser tab that reloads on save"
   homepage "https://github.com/motchang/bluelines"
-  version "0.1.0"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/motchang/bluelines/releases/download/v0.1.0/blueline-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d2838b9688a4b2f7f2b93be43087b23fe98f979468fe1dc5b884546310118fb0"
+      url "https://github.com/motchang/bluelines/releases/download/v0.2.0/blueline-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "42b88a567ff3d7090d32f09ad3fefeacc17f25977d3ba0ca92a0f0e05299b3d5"
     end
     on_intel do
-      url "https://github.com/motchang/bluelines/releases/download/v0.1.0/blueline-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "82f5d6123465c0c54e39db7e696e27e2fed3a11aec17d120ec9802d636436beb"
+      url "https://github.com/motchang/bluelines/releases/download/v0.2.0/blueline-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4b0b7d1d135a2e95dd492ebe6f6c2872a11204eb4924a30b5e4b03efc1bf97a8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/motchang/bluelines/releases/download/v0.1.0/blueline-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fba86604c6543a6131d1fcad1148d16b7a464733a036e499158d1abba4d39ef4"
+      url "https://github.com/motchang/bluelines/releases/download/v0.2.0/blueline-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "190f1c3c705d6321df503d14024591a5f4a19b685c6194713af6e379350d3508"
     end
     on_intel do
-      url "https://github.com/motchang/bluelines/releases/download/v0.1.0/blueline-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9e966923341b548b3bb6ca19e0a769d34934683b1bac8457cf2bd5c35238bcd9"
+      url "https://github.com/motchang/bluelines/releases/download/v0.2.0/blueline-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9f42129a645a5e5923beeff95a17a416d491979b64019176121951951bfdc3a2"
     end
   end
 
